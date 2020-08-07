@@ -1,0 +1,198 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="ion-text-center font-nunitoBold" >Company Name</ion-title>
+    <ion-row>
+      <ion-col size="3"> 
+        <img src="../../assets/home/q0q0tb.tif.svg" class="headIcon" alt="">
+      </ion-col>
+      <ion-col size="6">
+      </ion-col>
+      <ion-col size="3" class="ion-no-padding">  
+        <ion-button fill="clear" class="ion-no-margin max-height-40px ion-no-padding">
+          <img src="../../assets/more-info/yyZVmR.tif.png" class="imgHeader" routerLink="/profile">
+        </ion-button>
+        <ion-button fill="clear" class="ion-no-margin max-height-40px ion-no-padding">
+          <img src="../../assets/more-info/Group 69.png" class="imgHeader">
+        </ion-button>
+      </ion-col>
+    </ion-row>  
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" routerLink="/tabs/tab1">
+  <div class="warning "> 
+    <p class="warningText font-nunitoSemiBold">WARNING <img src="../../assets/home/6A3KNx.tif.svg" alt=""></p>
+    <ion-row>
+      <ion-col size="2">        
+      </ion-col>
+      <ion-col size="3">
+        <img src="../../assets/home/Icon awesome-temperature-high.svg" class="warningImg"alt="">
+      </ion-col>
+      <ion-col size="6">
+        <p class="details font-nunitoSemiBold">Expected average temp:</p>
+        <p class="detailsBold font-nunitoSemiBold">60 (deg F)</p>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="2">        
+      </ion-col>
+      <ion-col size="3">
+        <img src="../../assets/home/Icon awesome-wind.svg" class="warningImg">
+      </ion-col>
+      <ion-col size="6">
+        <p class="details font-nunitoSemiBold">Expected average wind:</p>
+        <p class="detailsBold font-nunitoSemiBold">135 mph</p>
+        <p class="details font-nunitoSemiBold"> Prediction: </p>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="2">        
+      </ion-col>
+      <ion-col size="3">
+        <img src="../../assets/home/SKVIyD.tif.svg" alt="">
+      </ion-col>
+      <ion-col size="6">
+        <p class="detailsBold font-nunitoSemiBold">Category 3 Hurricane</p>
+        <p class="details font-nunitoSemiBold"> Expected outcome:</p>
+        <p class="detailsBold font-nunitoSemiBold"> Catastrophic damage</p>
+      </ion-col>
+    </ion-row>
+  </div>
+  <div class="helloDiv ">
+  <ion-row>
+    <ion-col size="12" class="ion-no-padding">
+      <p class="hello font-nunitoExtraBold">Hello John,</p>
+      <p class="helloDes font-nunitoSemiBold">Find a way to safeguard your property</p>
+    </ion-col>
+    </ion-row>
+  </div>
+
+
+  <!-- <ion-row>
+    <ion-col>
+      
+      <ion-segment scrollable>
+        <ion-segment-button 
+        *ngFor="let category of categories"
+        value="{{category}}">
+
+          <ion-label> {{ category}}   </ion-label>
+        
+        </ion-segment-button>
+      </ion-segment>
+
+      <ion-segment class="scroll-segment">
+        <ion-segment-button 
+        *ngFor="let category of categories"
+        value="{{category}}"
+        class="item-scroll">
+
+          <ion-label> {{ category}}   </ion-label> 
+        
+        </ion-segment-button>
+      </ion-segment>
+
+
+    </ion-col>
+  </ion-row> -->
+
+
+<!-- -------------------------------------------------------- -->
+
+  <!-- <ion-row>
+    <ion-col>
+      
+      <ion-segment scrollable>
+        <ion-segment-button >
+          <ion-card mode="md">
+            <ion-item>
+              <ion-icon src="../../assets/home/Group.svg" slot="start"></ion-icon>
+            </ion-item>
+          </ion-card>
+        </ion-segment-button>
+        <ion-segment-button >
+          <ion-card mode="md">
+            <ion-item>
+              <ion-icon src="../../assets/home/Group.svg" slot="start"></ion-icon>
+            </ion-item>
+          </ion-card>
+
+          
+        
+        </ion-segment-button>
+      </ion-segment>
+    </ion-col>
+  </ion-row> -->
+
+      <ion-slides>
+      <ion-slide class="slide">
+        <ion-card>
+          <div class="imgCard">
+          <img src="../../assets/home/T4Jnf9.tif_1_.svg" />
+        </div>
+          <ion-card-header>
+            <ion-card-title class="font-nunitoSemiBold cardSubtitle"> Water Management</ion-card-title>
+          </ion-card-header>
+          <ion-card-content class="font-nunitoRegular cardContent">
+            This video presents the most common methods to control outside water from entering.
+          </ion-card-content>
+        </ion-card>
+      </ion-slide>
+      <ion-slide class="slide"> 
+        <ion-card>
+          <div class="imgCard2">
+          <img src="../../assets/home/dtZS9G.tif_1_.svg" />
+        </div>
+          <ion-card-header>
+            <ion-card-title class="font-nunitoSemiBold cardSubtitle">Roof protection</ion-card-title>
+          </ion-card-header>
+          <ion-card-content class="font-nunitoRegular cardContent">
+            New Roofing components protect from damage that can be caused by ice and water buildup.
+          </ion-card-content>
+        </ion-card>
+      </ion-slide>
+    </ion-slides>
+    
+    <ion-card class="card3">
+      <div>
+      <img src="../../assets/home/Group.svg" />
+    </div>
+    </ion-card>
+    <ion-card class="card3">
+      <div>
+      <img src="../../assets/home/TeprgS.tif.svg" />
+    </div>
+    </ion-card>
+    <ion-card class="card3">
+      <div>
+      <img src="../../assets/home/rmYJJZ.tif.svg" />
+    </div>
+    </ion-card>
+    <ion-card class="card3">
+      <div>
+      <img src="../../assets/home/mF3wx7.tif.svg" />
+    </div>
+    </ion-card>
+
+    <ion-row class="lastRow">
+      <ion-col size="2">
+        <img src="../../assets/home/Group 191.svg" class="imgClaim"/>
+      </ion-col>
+      <ion-col size="6">
+        <p class="font-nunitoSemiBold font-13">CLAIM FILED,</p>
+        <p class="font-nunitoSemiBold font-13">SCHEDULING IN PROGRESS</p>
+        <p class="font-nunitoRegular font-9">9808 Lake View Street</p>
+      </ion-col>
+      <ion-col size="4">
+        <br>
+        <p class="viewDetails">View Details</p>
+      </ion-col>
+    </ion-row>
+</ion-content>
+
+
+
+
+
+
+

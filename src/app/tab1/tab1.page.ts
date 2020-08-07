@@ -7,6 +7,8 @@ import { Component } from '@angular/core';
 })
 export class Tab1Page {
 
+    categories = ['India','Pakistan','WI','SA','England','Australia','Bangladesh','Sri-lanka','Ireland','Afghanistan'];
+
   constructor() {}
 
 }

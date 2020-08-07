@@ -1,0 +1,28 @@
+.imgFuture{
+    padding: 30px 20px 0px 30px;
+    width: 338pt;
+    height: 100pt;
+} 
+.imgIcon{
+      position:absolute;
+      z-index: 2;
+      margin-left: 30px;
+}
+.imgLine3{
+   margin-top: 200px; 
+}
+.imgMain{
+    position:absolute;
+    z-index: 2;
+    width:300px;
+    margin-left:70px;
+}
+.imgLine2{
+    position:absolute;
+      z-index: 1;
+}
+ion-content{
+    --background: url(../../assets/splash-screen/Rectangle 39.png);
+    --background-repeat: no-repeat;
+    --background-size: cover;  
+}

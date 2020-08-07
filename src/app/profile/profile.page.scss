@@ -1,0 +1,73 @@
+.imgArrow{
+    width: auto;
+    margin: auto;
+    display: block;
+}
+.profileDetails{
+    padding: 40px;
+}
+.label{
+    // display: inline;
+    color: #F56867;
+    padding-bottom: 10px;
+}
+.detail{
+    // display: inline;
+    color: black;
+    padding-bottom: 10px;
+}
+.imgSquare{
+    background: url("../../assets/profile/Rectangle 57.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    // min-height: 220px;
+    // max-height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgIcon{
+        width: 25%;
+        margin-right: 20vw;
+        padding: 5px;
+        margin-bottom: 23px;
+}
+// .buttons{
+//     padding:50px 20px 50px 20px;
+// }
+.max-height-40px {
+    width: 40px;
+    height: 40px;
+}
+.imgHeader{
+    height: 30px;
+    width: 30px
+}
+.max-height-200px {
+    width: 200px;
+    height: 100px
+}
+.bg-image{
+    background: url("../../assets/profile/Path 825.png");  
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 220px;
+    max-height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headProfile{
+    width: 60px !important;
+    margin-right: 30vw;
+  }
+.name{
+    color: white;
+    font-size: 30px;
+    margin: 0px !important;
+}
+.nameDetails{
+    color: white;
+    font-size: 15px;
+    margin: 0px !important;
+}

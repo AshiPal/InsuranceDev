@@ -1,0 +1,61 @@
+.imgArrow {
+  width: auto;
+  margin: auto;
+  display: block;
+}
+.imgRect {
+  position: absolute;
+  // z-index: 1;
+}
+.imgSun {
+  position: relative;
+}
+.imgSquare {
+  position: absolute;
+  padding: 15px;
+}
+.imgIcon {
+  position: relative;
+  display: block;
+}
+.greyBackground {
+  background-color: #f7f9fb;
+}
+
+.bg-image {
+  background: url("../../assets/more-info/Mask Group 8.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 135px;
+  max-height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-content-container {
+  margin-left: 12vw;
+}
+
+.max-height-40px {
+  width: 40px;
+  height: 40px;
+}
+.imgHeader {
+  height: 30px;
+  width: 30px;
+}
+.max-height-200px {
+  width: 170px;
+  height: 170px;
+}
+p{
+  margin: 0px !important;
+  font-size: 10px;
+}
+.sunny{
+  color: #F45A59;
+}
+.tempreture{
+  font-size: 30px;
+}

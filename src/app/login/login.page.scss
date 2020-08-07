@@ -1,0 +1,81 @@
+.imgLogin{
+    padding: 0px 20px 0px 30px;
+    width: 338pt;
+    height: 100pt;
+} 
+ion-content{
+    --background: url(../../assets/login/bg..png);
+    --background-repeat: no-repeat;
+    --background-size: cover; 
+}
+.loginText{
+    --background-repeat:no-repeat;
+    --background-position:left top;
+}
+ion-item{
+    border-radius: 8px !important;
+}
+
+.authentication-form-container {
+    margin-top: 40vh;
+}
+
+.loginButton{
+    background-color: #3F3D56;
+    border-radius: 4px;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    height: 100%;
+}
+
+.footer{
+    --background:url(../../assets/login/Group 48.png);
+    --background-repeat:no-repeat;
+    --background-position:left top;
+}
+.imgFooter{
+    width: 100%;
+}
+
+.height-100 {
+    height: 100%;
+}
+
+.button-inner-padding {
+    --padding-start: 2px;
+    --padding-end: 2px
+}
+
+.max-height-36px {
+    max-height: 36px !important;
+}
+
+.max-height-40px {
+    max-height: 40px !important;
+}
+
+.padding-horizontal-2px {
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+ion-footer{
+    --background:url(../../assets/login/Group 48.png);
+    --background-repeat:no-repeat;
+    --background-position:left top;
+}
+.forgotPassword{
+    text-align: right;
+    color: #3F3D56;
+}
+.lable{
+    color:#F45A59;
+    font-family: 'nunito-bold' !important;
+}
+.font-nunitoSemiBold{
+    font-family: 'nunito-SemiBold' !important;
+}
+.font-nunitoBold{
+    font-family: 'nunito-bold' !important;
+}
