@@ -1,17 +1,57 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button color="dark" text="" defaultHref="/tabs/home">
+      </ion-back-button>
+    </ion-buttons>
+    <ion-title class="ion-text-center font-nunitoSemiBold">Policies</ion-title>
+    <ion-buttons slot="end">
+      <ion-button fill="clear" class="ion-no-margin max-height-40px ion-no-padding" routerLink="/tabs/profile">
+        <img src="../../assets/more-info/yyZVmR.tif.png" class="imgHeader">
+      </ion-button>
+      <ion-button fill="clear" class="ion-no-margin max-height-40px ion-no-padding" routerLink="/tabs/notification">
+        <img src="../../assets/more-info/Group 69.png" class="imgHeader">
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  <ion-card>
+    <div class="imgCard">
+    <img src="../../assets/policies/Mask Group 33.png" />
+  </div>
+    <ion-card-header class="cardHeader">
+      <ion-card-title class="font-nunitoBold cardSubtitle blue">1596 Single Tree Way</ion-card-title>
+    </ion-card-header>
+    <ion-card-content class="font-nunitoRegular cardContent blue">
+      <p>San Jose, CA, 95118</p>
+      <p class="paddingBottom-5">Expires on- 31st Dec, 2021</p>
+      <ion-button class="cardButton blue font-nunitoSemiBold" fill="clear">More Details</ion-button>
+      <ion-button class="cardButton blue font-nunitoSemiBold" fill="clear">Pay Now</ion-button>
+      <ion-button expand="full" class="cardButton2 font-nunitoSemiBold ion-no-margin">PROPERTY SECURE
+        <ion-icon slot="start" name="home"></ion-icon>
+      </ion-button>
+    </ion-card-content>
+  </ion-card>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <ion-card>
+    <div class="imgCard">
+    <img src="../../assets/policies/Mask Group 34.png" />
+  </div>
+    <ion-card-header class="cardHeader">
+      <ion-card-title class="font-nunitoBold cardSubtitle blue">5708 Calmor Ave APT 2</ion-card-title>
+    </ion-card-header>
+    <ion-card-content class="font-nunitoRegular cardContent blue">
+      <p>San Jose, CA, 95123</p>
+      <p class="paddingBottom-5">Expires on - 12 Jul 2019</p>
+      <ion-button class="cardButton blue font-nunitoSemiBold" fill="clear">More Details</ion-button>
+      <ion-button class="payNow pink font-nunitoSemiBold" fill="clear">RENEW NOW</ion-button>
+      <ion-button expand="full" class="cardButton3 font-nunitoSemiBold ion-no-margin">POLICY EXPIRING SOON!!
+        <ion-icon slot="start" name="home"></ion-icon>
+      </ion-button>
+    </ion-card-content>
+  </ion-card>
+
+
 </ion-content>

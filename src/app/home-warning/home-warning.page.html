@@ -1,25 +1,19 @@
 <ion-header>
   <ion-toolbar>
+    <img src="../../assets/home/q0q0tb.tif.svg" alt="">
     <ion-title class="ion-text-center font-nunitoBold" >Company Name</ion-title>
-    <ion-row>
-      <ion-col size="3"> 
-        <img src="../../assets/home/q0q0tb.tif.svg" class="headIcon" alt="">
-      </ion-col>
-      <ion-col size="6">
-      </ion-col>
-      <ion-col size="3" class="ion-no-padding">  
-        <ion-button fill="clear" class="ion-no-margin max-height-40px ion-no-padding">
-          <img src="../../assets/more-info/yyZVmR.tif.png" class="imgHeader" routerLink="/profile">
-        </ion-button>
-        <ion-button fill="clear" class="ion-no-margin max-height-40px ion-no-padding">
-          <img src="../../assets/more-info/Group 69.png" class="imgHeader">
-        </ion-button>
-      </ion-col>
-    </ion-row>  
+    <ion-buttons slot="end">
+      <ion-button fill="clear" class="ion-no-margin max-height-40px ion-no-padding" routerLink="/tabs/profile">
+        <img src="../../assets/more-info/yyZVmR.tif.png" class="imgHeader">
+      </ion-button>
+      <ion-button fill="clear" class="ion-no-margin max-height-40px ion-no-padding" routerLink="/tabs/notification">
+        <img src="../../assets/more-info/Group 69.png" class="imgHeader">
+      </ion-button>
+    </ion-buttons> 
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true" routerLink="/tabs/tab1">
+<ion-content [fullscreen]="true" routerLink="/tabs">
   <div class="warning "> 
     <p class="warningText font-nunitoSemiBold">WARNING <img src="../../assets/home/6A3KNx.tif.svg" alt=""></p>
     <ion-row>
@@ -173,7 +167,10 @@
       <img src="../../assets/home/mF3wx7.tif.svg" />
     </div>
     </ion-card>
+</ion-content>
 
+<ion-footer class="ion-no-border">
+  <ion-toolbar>
     <ion-row class="lastRow">
       <ion-col size="2">
         <img src="../../assets/home/Group 191.svg" class="imgClaim"/>
@@ -188,8 +185,8 @@
         <p class="viewDetails">View Details</p>
       </ion-col>
     </ion-row>
-</ion-content>
-
+  </ion-toolbar>
+</ion-footer>
 
 
 

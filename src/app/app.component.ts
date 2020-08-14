@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 
 import { Platform } from '@ionic/angular';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
+import { SplashScreen } from '@ionic-native/splash-screen/ngx';
 
 @Component({
   selector: 'app-root',
@@ -11,13 +12,16 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 export class AppComponent {
   constructor(
     private platform: Platform,
-    private statusBar: StatusBar
+    private statusBar: StatusBar,
+    // private splashScreen: SplashScreen
   ) {
+    // this.splashScreen.show()
     this.initializeApp();
   }
-
+  
   initializeApp() {
     this.platform.ready().then(() => {
+      // this.splashScreen.hide();
       this.statusBar.styleDefault();
     });
   }

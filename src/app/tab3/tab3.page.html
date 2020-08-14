@@ -1,17 +1,70 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>
-      Tab 3
-    </ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button color="dark" text="" defaultHref="/tabs/home">
+      </ion-back-button>
+    </ion-buttons>
+    <ion-title class="ion-text-center font-nunitoSemiBold">Claim</ion-title>
+    <ion-buttons slot="end">
+      <ion-button fill="clear" class="ion-no-margin max-height-40px ion-no-padding" routerLink="/tabs/profile">
+        <img src="../../assets/more-info/yyZVmR.tif.png" class="imgHeader">
+      </ion-button>
+      <ion-button fill="clear" class="ion-no-margin max-height-40px ion-no-padding" routerLink="/tabs/notification">
+        <img src="../../assets/more-info/Group 69.png" class="imgHeader">
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  <ion-card class="zero-border-radius">
+    <ion-item >
+      <!-- <ion-icon src="../../assets/notification/Group 399.svg" slot="start" class="cardIcon"></ion-icon> -->
+      <div>
+      <img src="../../assets/claims/Mask Group 10.png" class="cardImg">
+    </div>
+      <ion-label>
+        <p class="heading font-nunitoBold">Claim Id- ZEN52081</p>
+        <p class="cardContent no-margin font-nunitoRegular">Policy No- ZX66721C</p>
+        <p class="cardContent font-nunitoRegular"> 1596 Single Tree Way, San Jose CA, 95118</p>
+      </ion-label>
+    </ion-item>
+    <ion-card-content class="ion-no-padding">
+      <ion-button expand="full" class="cardButton1 font-nunitoSemiBold ion-no-margin">CLAIM FILED , Click to schedule surveyor
+        <ion-icon slot="start" name="home"></ion-icon>
+      </ion-button>
+    </ion-card-content>
+  </ion-card>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+  <ion-card class="zero-border-radius">
+    <ion-item >
+      <!-- <ion-icon src="../../assets/notification/Group 399.svg" slot="start" class="cardIcon"></ion-icon> -->
+      <div>
+      <img src="../../assets/claims/Mask Group 10.png" class="cardImg">
+    </div>
+      <ion-label>
+        <p class="heading font-nunitoBold">Claim Id- ZEN52089</p>
+        <p class="cardContent no-margin font-nunitoRegular">Policy No- ZX55561C</p>
+        <p class="cardContent font-nunitoRegular">5708 Calmor Ave APT 2, San Jose CA, 95123</p>
+      </ion-label>
+    </ion-item>
+    <ion-card-content class="ion-no-padding">
+      <ion-button expand="full" class="cardButton2 font-nunitoSemiBold ion-no-margin">SURVEY COMPLETED, click here for status
+        <ion-icon slot="start" name="home"></ion-icon>
+      </ion-button>
+    </ion-card-content>
+  </ion-card>
+  <ion-item lines="none" class="newClaimInfo">
+    <ion-button slot="end" fill="clear" class="newClaimButton">
+      <ion-icon src="../../assets/claims/Group 375.svg" slot="end" class="newClaimIcon"></ion-icon>
+    </ion-button>
+  </ion-item>
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+      <ion-button expand="block" class="colorGradient footerButton font-nunitoBold">+ File a new claim
+        <ion-icon slot="start" src="../../assets/claims/Group.svg" class="footerIcon"></ion-icon>
+      </ion-button>
+  </ion-toolbar>
+</ion-footer>

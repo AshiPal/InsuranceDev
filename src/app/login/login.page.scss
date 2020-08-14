@@ -4,7 +4,7 @@
     height: 100pt;
 } 
 ion-content{
-    --background: url(../../assets/login/bg..png);
+    --background: url(../../assets/login/bg.png);
     --background-repeat: no-repeat;
     --background-size: cover; 
 }
@@ -78,4 +78,16 @@ ion-footer{
 }
 .font-nunitoBold{
     font-family: 'nunito-bold' !important;
+}
+.dontHaveAccount{
+    padding: 7px;
+    font-size: 13px;
+}
+.signUp{
+    font-size: 17px;
+}
+ion-toolbar{
+    --background: linear-gradient(to right, #f45a59,#ef5959,#3f3d56);;
+    padding: 0px !important;
+    color: white;
 }

@@ -1,24 +1,18 @@
 <ion-header>
   <ion-toolbar>
     <ion-buttons slot="start">
-      <ion-back-button color="dark" text="" defaultHref="/tabs/tab1">
+      <ion-back-button color="dark" text="" defaultHref="/tabs/home">
       </ion-back-button>
     </ion-buttons>
     <ion-title class="ion-text-center font-nunitoSemiBold">Profile</ion-title>
-    <ion-row>
-      <ion-col size="3"> 
-      </ion-col>
-      <ion-col size="6">
-      </ion-col>
-      <ion-col size="3" class="ion-no-padding">  
-        <ion-button fill="clear" class="ion-no-margin max-height-40px ion-no-padding">
-          <img src="../../assets/profile/yyZVmR.tif.png" class="imgHeader">
-        </ion-button>
-        <ion-button fill="clear" class="ion-no-margin max-height-40px ion-no-padding">
-          <img src="../../assets/more-info/Group 69.png" class="imgHeader">
-        </ion-button>
-      </ion-col>
-    </ion-row>  
+    <ion-buttons slot="end">
+      <ion-button fill="clear" class="ion-no-margin max-height-40px ion-no-padding" routerLink="/tabs/profile">
+        <img src="../../assets/more-info/yyZVmR.tif.png" class="imgHeader">
+      </ion-button>
+      <ion-button fill="clear" class="ion-no-margin max-height-40px ion-no-padding" routerLink="/tabs/notification">
+        <img src="../../assets/more-info/Group 69.png" class="imgHeader">
+      </ion-button>
+    </ion-buttons> 
   </ion-toolbar>
 </ion-header>
 
@@ -84,4 +78,23 @@
       </ion-col>
     </ion-row>
   </ion-grid>
+  <!-- <ion-slides>
+    <ion-slide class="slide">
+  <ion-card class="width50">
+    <ion-item >
+      <ion-icon src="../../assets/profile/Group.png" slot="start"></ion-icon>
+      <ion-label>View my policies</ion-label>
+    </ion-item>
+  </ion-card> 
+  </ion-slide>
+  <ion-slide>
+  <ion-card class="width50">
+    <ion-item >
+      <ion-icon src="../../assets/profile/Group 16.png" slot="start"></ion-icon>
+      <ion-label>View my policies</ion-label>
+    </ion-item>
+  
+  </ion-card> 
+</ion-slide>
+</ion-slides> -->
 </ion-content>

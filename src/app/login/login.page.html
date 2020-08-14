@@ -27,7 +27,7 @@
     <!-- <button ion-button fill="clear" class="loginButton ion-no-margin max-height-36px" type="submit" [disabled]="!loginForm.valid">Submit</button> -->
     <ion-row class="buttons-container ion-padding-horizontal">
       <ion-col size="6" size-sm >
-        <ion-button ion-button fill="clear" class="loginButton ion-no-margin max-height-36px font-nunitoBold" type="submit" [disabled]="!loginForm.valid" routerLink="/home">LOGIN</ion-button>
+        <ion-button ion-button fill="clear" class="loginButton ion-no-margin max-height-36px font-nunitoBold" type="submit" [disabled]="!loginForm.valid" routerLink="/tabs/home-warning">LOGIN</ion-button>
       </ion-col>
       <ion-col size="3" size-sm class="padding-horizontal-2px">
         <ion-button fill="clear" class="button-inner-padding ion-no-margin max-height-36px">
@@ -48,28 +48,20 @@
   </form>
 </ion-content>
 
-<!-- <ion-footer class="ion-no-border">
-  <img src="../../assets/login/Group 48.png">
-</ion-footer> -->
-
-<!-- <ion-footer>
-  <div class="imgFooter">
-    <img src="../../assets/login/Don’t have an account.png" class="imgarrow">
-    <img src="../../assets/login/Group 48.png" class="imgSignup">
-    <img src="../../assets/login/Shape.png" class="imgarrow">
-  </div>
-</ion-footer> -->
-
-<ion-footer>
-  <ion-row>
-    <ion-col no-padding size="6">
-      <img src="../../assets/login/Don’t have an account.png" alt="">
-    </ion-col>
-    <ion-col no-padding size="3">
-
-    </ion-col>
-    <ion-col no-padding size="3">
-      <img src="../../assets/login/Shape.png" alt="">
-    </ion-col>
-  </ion-row>
+<ion-footer class="ion-no-border ion-no-padding">
+  <ion-toolbar >
+      <ion-row>
+        <ion-col size="2" class="dontHaveAccount ">
+        </ion-col>
+        <ion-col size="5" class="dontHaveAccount font-nunitoSemiBold">
+          Don’t have an account?
+        </ion-col>
+        <ion-col size="3" class="signUp font-nunitoBold">
+          Sign Up
+        </ion-col>
+        <ion-col size="2">
+          <ion-icon name="chevron-forward-outline"></ion-icon>
+        </ion-col>
+      </ion-row>
+  </ion-toolbar>
 </ion-footer>

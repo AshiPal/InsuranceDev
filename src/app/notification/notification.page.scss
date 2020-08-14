@@ -1,0 +1,75 @@
+.remindMeLater{
+    width: 50%;
+    padding: 0px;
+    margin: 0px;
+    --border-radius: 0px;
+    border: 1px solid #414141;
+    font-size: 15px;
+}
+.zero-border-radius{
+    border-radius: 0px;
+}
+.blue{
+    color: #414141;
+}
+.no-margin{
+    margin: 0px !important;
+}
+.heading{
+    font-size: 16px;
+    color: #414141;
+}
+.cardContent{
+    font-size: 11.5px;
+    color: #414141;
+}
+.cardIcon{
+    width: 50px;
+    height: 46px;
+}
+.reschedule{
+    width: 50%;
+    padding: 0px;
+    margin: 0px;
+    --border-radius: 0px;
+    border: 1px solid #F56B6A;
+    font-size: 15px;
+}
+.pink{
+    color: #F56B6A;
+}
+.noShadow{
+    --box-shadow: 0px;
+}
+.noSpace{  
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.wordWrap{
+    white-space: nowrap;
+}
+.card3Button{
+    border: 1px solid #414141;
+    border-radius: 8px;
+    color: #414141;
+    padding: 6px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color:white ;
+    margin: 3px;
+
+}
+ion-content {
+    --background: #F7F7F7 !important;
+}
+
+.greyBack{
+    --background: #F7F7F7;
+
+    ion-item{
+     --background: #F7F7F7;
+     border: 1px solid #E5E3E3;
+    }
+}
